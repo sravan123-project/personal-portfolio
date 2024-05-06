@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bodakonda Sravan Kumar</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p> I'm <b>Bodakonda Sravan Kumar</b>, currently pursuing my Master's degree in Computer Science at<b> Sacred Heart University</b>. I hold a Bachelor's degree in Computer Science from <b>Lovely Professional University</b> , where I graduated with a commendable 75% grade. My journey in the field of technology has been both enriching and dynamic, characterized by a relentless pursuit of knowledge and a passion for innovation.
+
+            During my professional tenure as a Salesforce Developer at<b></b> Wipro, I spent 1.5 years honing my skills and contributing to impactful projects. This experience not only provided me with hands-on expertise in Salesforce development but also instilled in me a deep understanding of the importance of leveraging technology to drive business success.
+            
+            One of the hallmarks of my career has been my commitment to continuous learning and growth. I have actively pursued and obtained three major certifications in the course of my work experience, each adding layers of proficiency and credibility to my skill set.
+            
+            I believe that technology is a catalyst for transformation, and I am driven by the prospect of exploring new technologies and embracing emerging trends in the ever-evolving landscape of computer science. I am eager to leverage my academic background, professional experience, and passion for learning to make meaningful contributions to the world of technology.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <!-- Your portfolio projects go here -->
+        <div class="project">
+            <img src="/hospital_management_system.png" alt="Project 1">
+            <h3>Hospital Management System</h3>
+            <p>Description</p>
+            <a href="projects.html" class="btn">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form" method="post" action="send_email.php ">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/bodakonda-sravan-kumar-299672191/">LinkedIn</a></li>
+            <li><a href="https://github.com/sravan123-project">GitHub</a></li>
+            <!-- Add more social media links as needed -->
+        </ul>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript for smooth scrolling and form validation -->
+    <script src="script.js"></script>
+</body>
+</html>
